@@ -1,180 +1,180 @@
-2019-02-06 11:13:02,753 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
-2019-02-06 11:13:02,787 INFO o.a.j.JMeter: Loading system properties from: system.properties
-2019-02-06 11:13:02,794 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
-2019-02-06 11:13:02,794 INFO o.a.j.JMeter: Version 5.0 r1840935
-2019-02-06 11:13:02,794 INFO o.a.j.JMeter: java.version=1.8.0_151
-2019-02-06 11:13:02,794 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-2019-02-06 11:13:02,794 INFO o.a.j.JMeter: os.name=Linux
-2019-02-06 11:13:02,794 INFO o.a.j.JMeter: os.arch=amd64
-2019-02-06 11:13:02,795 INFO o.a.j.JMeter: os.version=4.4.0-101-generic
-2019-02-06 11:13:02,795 INFO o.a.j.JMeter: file.encoding=UTF-8
-2019-02-06 11:13:02,795 INFO o.a.j.JMeter: Max memory     =514850816
-2019-02-06 11:13:02,795 INFO o.a.j.JMeter: Available Processors =2
-2019-02-06 11:13:02,802 INFO o.a.j.JMeter: Default Locale=English (United States)
-2019-02-06 11:13:02,803 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
-2019-02-06 11:13:02,803 INFO o.a.j.JMeter: JMeterHome=/home/travis/build/mega-pokedex/pokedexCucumber/target/jmeter
-2019-02-06 11:13:02,803 INFO o.a.j.JMeter: user.dir  =/home/travis/build/mega-pokedex/pokedexCucumber/target/jmeter/bin
-2019-02-06 11:13:02,803 INFO o.a.j.JMeter: PWD       =/home/travis/build/mega-pokedex/pokedexCucumber/target/jmeter/bin
-2019-02-06 11:13:02,804 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: travis-job-a4062582-f91c-44e1-a0fb-c1d4b85a1310 FullName: travis-job-a4062582-f91c-44e1-a0fb-c1d4b85a1310
-2019-02-06 11:13:02,806 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/home/travis/build/mega-pokedex/pokedexCucumber/target/jmeter/reports/pokedex_test'
-2019-02-06 11:13:02,808 INFO o.a.j.s.FileServer: Default base='/home/travis/build/mega-pokedex/pokedexCucumber/target/jmeter/bin'
-2019-02-06 11:13:02,817 INFO o.a.j.s.FileServer: Set new base='/home/travis/build/mega-pokedex/pokedexCucumber/target/jmeter/testFiles'
-2019-02-06 11:13:03,038 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2019-02-06 11:13:03,057 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2019-02-06 11:13:03,062 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2019-02-06 11:13:03,070 INFO o.a.j.s.SaveService: Loading file: /home/travis/build/mega-pokedex/pokedexCucumber/target/jmeter/testFiles/pokedex_test.jmx
-2019-02-06 11:13:03,121 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2019-02-06 11:13:03,121 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2019-02-06 11:13:03,121 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2019-02-06 11:13:03,121 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2019-02-06 11:13:03,121 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2019-02-06 11:13:03,121 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2019-02-06 11:13:03,165 INFO o.a.j.JMeter: Creating summariser <summary>
-2019-02-06 11:13:03,171 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
-2019-02-06 11:13:03,171 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: /home/travis/build/mega-pokedex/pokedexCucumber/target/jmeter/results/pokedex_test.csv
-2019-02-06 11:13:03,171 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /home/travis/build/mega-pokedex/pokedexCucumber/target/jmeter/bin/reportgenerator.properties
-2019-02-06 11:13:03,172 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
-2019-02-06 11:13:03,177 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
-2019-02-06 11:13:03,179 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
-2019-02-06 11:13:03,180 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction : {} is empty, not APDEX per transaction customization
-2019-02-06 11:13:03,180 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
-2019-02-06 11:13:03,180 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
-2019-02-06 11:13:03,180 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
-2019-02-06 11:13:03,180 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
-2019-02-06 11:13:03,180 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
-2019-02-06 11:13:03,181 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
-2019-02-06 11:13:03,187 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
-2019-02-06 11:13:03,187 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
-2019-02-06 11:13:03,187 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
-2019-02-06 11:13:03,187 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
-2019-02-06 11:13:03,187 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
-2019-02-06 11:13:03,188 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
-2019-02-06 11:13:03,188 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
-2019-02-06 11:13:03,188 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
-2019-02-06 11:13:03,188 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
-2019-02-06 11:13:03,189 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
-2019-02-06 11:13:03,190 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
-2019-02-06 11:13:03,190 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
-2019-02-06 11:13:03,190 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
-2019-02-06 11:13:03,202 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2019-02-06 11:13:03,203 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2019-02-06 11:13:03,204 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2019-02-06 11:13:03,212 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2019-02-06 11:13:03,213 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2019-02-06 11:13:03,850 INFO o.a.j.r.ResultCollector: Folder at /home/travis/build/mega-pokedex/pokedexCucumber/target/jmeter/bin/target/jmeter/reports was created
-2019-02-06 11:13:03,860 INFO o.a.j.JMeter: Running test (1549451583860)
-2019-02-06 11:13:03,921 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
-2019-02-06 11:13:03,921 INFO o.a.j.e.StandardJMeterEngine: Starting 20 threads for group Thread Group.
-2019-02-06 11:13:03,921 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2019-02-06 11:13:03,921 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=20 ramp-up=1 perThread=50.0 delayedStart=false
-2019-02-06 11:13:03,930 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
-2019-02-06 11:13:03,956 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = travis-job-a4062582-f91c-44e1-a0fb-c1d4b85a1310
-2019-02-06 11:13:03,971 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
-2019-02-06 11:13:03,973 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2019-02-06 11:13:03,973 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
-2019-02-06 11:13:03,973 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2019-02-06 11:13:03,974 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2019-02-06 11:13:03,982 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
-2019-02-06 11:13:03,995 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2019-02-06 11:13:03,995 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2019-02-06 11:13:04,033 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
-2019-02-06 11:13:04,086 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
-2019-02-06 11:13:04,116 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
-2019-02-06 11:13:04,124 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
-2019-02-06 11:13:04,124 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
-2019-02-06 11:13:04,135 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
-2019-02-06 11:13:04,186 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
-2019-02-06 11:13:04,238 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
-2019-02-06 11:13:04,289 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
-2019-02-06 11:13:04,352 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
-2019-02-06 11:13:04,403 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
-2019-02-06 11:13:04,405 INFO o.a.j.u.SSLManager: KeyStore created OK
-2019-02-06 11:13:04,405 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
-2019-02-06 11:13:04,413 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
-2019-02-06 11:13:04,460 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
-2019-02-06 11:13:04,510 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
-2019-02-06 11:13:04,561 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
-2019-02-06 11:13:04,614 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
-2019-02-06 11:13:04,673 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
-2019-02-06 11:13:04,724 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
-2019-02-06 11:13:04,774 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
-2019-02-06 11:13:04,825 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
-2019-02-06 11:13:04,894 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
-2019-02-06 11:13:04,947 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
-2019-02-06 11:13:06,775 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-17
-2019-02-06 11:13:06,778 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
-2019-02-06 11:13:06,778 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-19
-2019-02-06 11:13:06,779 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
-2019-02-06 11:13:06,777 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-20
-2019-02-06 11:13:06,779 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
-2019-02-06 11:13:06,781 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-18
-2019-02-06 11:13:06,781 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
-2019-02-06 11:13:06,830 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
-2019-02-06 11:13:06,830 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
-2019-02-06 11:13:06,833 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
-2019-02-06 11:13:06,833 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
-2019-02-06 11:13:06,835 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-16
-2019-02-06 11:13:06,835 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
-2019-02-06 11:13:06,835 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
-2019-02-06 11:13:06,836 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
-2019-02-06 11:13:06,837 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
-2019-02-06 11:13:06,837 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
-2019-02-06 11:13:06,838 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
-2019-02-06 11:13:06,839 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
-2019-02-06 11:13:06,839 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-12
-2019-02-06 11:13:06,839 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
-2019-02-06 11:13:06,841 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
-2019-02-06 11:13:06,841 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
-2019-02-06 11:13:06,842 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-15
-2019-02-06 11:13:06,842 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
-2019-02-06 11:13:06,843 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-13
-2019-02-06 11:13:06,844 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
-2019-02-06 11:13:06,844 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
-2019-02-06 11:13:06,844 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
-2019-02-06 11:13:06,844 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
-2019-02-06 11:13:06,845 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
-2019-02-06 11:13:06,845 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
-2019-02-06 11:13:06,846 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-11
-2019-02-06 11:13:06,846 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
-2019-02-06 11:13:06,847 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-14
-2019-02-06 11:13:06,847 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
-2019-02-06 11:13:06,847 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
-2019-02-06 11:13:06,847 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
-2019-02-06 11:13:06,847 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
-2019-02-06 11:13:06,848 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2019-02-06 11:13:06,849 INFO o.a.j.r.Summariser: summary =     40 in 00:00:03 =   13.4/s Avg:  1156 Min:    41 Max:  2595 Err:     0 (0.00%)
-2019-02-06 11:13:06,849 INFO o.a.j.JMeter: Generating Dashboard
-2019-02-06 11:13:06,849 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
-2019-02-06 11:13:06,870 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
-2019-02-06 11:13:06,977 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
-2019-02-06 11:13:06,977 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
-2019-02-06 11:13:06,982 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
-2019-02-06 11:13:06,983 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
-2019-02-06 11:13:06,989 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
-2019-02-06 11:13:07,000 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
-2019-02-06 11:13:07,000 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
-2019-02-06 11:13:07,000 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
-2019-02-06 11:13:07,016 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
-2019-02-06 11:13:07,017 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
-2019-02-06 11:13:07,017 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
-2019-02-06 11:13:07,017 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
-2019-02-06 11:13:07,026 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
-2019-02-06 11:13:07,031 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 280 samples
-2019-02-06 11:13:07,031 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
-2019-02-06 11:13:07,031 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
-2019-02-06 11:13:07,031 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
-2019-02-06 11:13:07,033 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
-2019-02-06 11:13:07,033 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
-2019-02-06 11:13:07,033 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
-2019-02-06 11:13:07,037 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
-2019-02-06 11:13:07,037 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
-2019-02-06 11:13:07,037 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
-2019-02-06 11:13:07,037 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
-2019-02-06 11:13:07,037 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 600 samples
-2019-02-06 11:13:07,037 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 120 samples
-2019-02-06 11:13:07,037 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 40 samples
-2019-02-06 11:13:07,038 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 40 samples produced in 129ms on channel 0
-2019-02-06 11:13:07,038 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
-2019-02-06 11:13:07,042 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /home/travis/build/mega-pokedex/pokedexCucumber/target/jmeter/reports/pokedex_test
-2019-02-06 11:13:07,158 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /home/travis/build/mega-pokedex/pokedexCucumber/target/jmeter/reports/pokedex_test, creating folder structure
-2019-02-06 11:13:07,542 INFO o.a.j.JMeter: Dashboard generated
+2019-02-06 11:31:18,044 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2019-02-06 11:31:18,080 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2019-02-06 11:31:18,087 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2019-02-06 11:31:18,087 INFO o.a.j.JMeter: Version 5.0 r1840935
+2019-02-06 11:31:18,087 INFO o.a.j.JMeter: java.version=1.8.0_151
+2019-02-06 11:31:18,087 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2019-02-06 11:31:18,087 INFO o.a.j.JMeter: os.name=Linux
+2019-02-06 11:31:18,087 INFO o.a.j.JMeter: os.arch=amd64
+2019-02-06 11:31:18,087 INFO o.a.j.JMeter: os.version=4.4.0-101-generic
+2019-02-06 11:31:18,087 INFO o.a.j.JMeter: file.encoding=UTF-8
+2019-02-06 11:31:18,087 INFO o.a.j.JMeter: Max memory     =514850816
+2019-02-06 11:31:18,088 INFO o.a.j.JMeter: Available Processors =2
+2019-02-06 11:31:18,094 INFO o.a.j.JMeter: Default Locale=English (United States)
+2019-02-06 11:31:18,095 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2019-02-06 11:31:18,097 INFO o.a.j.JMeter: JMeterHome=/home/travis/build/mega-pokedex/pokedexCucumber/target/jmeter
+2019-02-06 11:31:18,097 INFO o.a.j.JMeter: user.dir  =/home/travis/build/mega-pokedex/pokedexCucumber/target/jmeter/bin
+2019-02-06 11:31:18,097 INFO o.a.j.JMeter: PWD       =/home/travis/build/mega-pokedex/pokedexCucumber/target/jmeter/bin
+2019-02-06 11:31:18,098 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: travis-job-9eba1749-6b3a-437c-8672-db5ad5914c69 FullName: travis-job-9eba1749-6b3a-437c-8672-db5ad5914c69
+2019-02-06 11:31:18,099 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/home/travis/build/mega-pokedex/pokedexCucumber/target/jmeter/reports/pokedex_test'
+2019-02-06 11:31:18,102 INFO o.a.j.s.FileServer: Default base='/home/travis/build/mega-pokedex/pokedexCucumber/target/jmeter/bin'
+2019-02-06 11:31:18,107 INFO o.a.j.s.FileServer: Set new base='/home/travis/build/mega-pokedex/pokedexCucumber/target/jmeter/testFiles'
+2019-02-06 11:31:18,345 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2019-02-06 11:31:18,363 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2019-02-06 11:31:18,368 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2019-02-06 11:31:18,376 INFO o.a.j.s.SaveService: Loading file: /home/travis/build/mega-pokedex/pokedexCucumber/target/jmeter/testFiles/pokedex_test.jmx
+2019-02-06 11:31:18,426 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-02-06 11:31:18,426 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-02-06 11:31:18,427 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-02-06 11:31:18,427 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-02-06 11:31:18,427 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2019-02-06 11:31:18,427 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2019-02-06 11:31:18,469 INFO o.a.j.JMeter: Creating summariser <summary>
+2019-02-06 11:31:18,474 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2019-02-06 11:31:18,474 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: /home/travis/build/mega-pokedex/pokedexCucumber/target/jmeter/results/pokedex_test.csv
+2019-02-06 11:31:18,475 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /home/travis/build/mega-pokedex/pokedexCucumber/target/jmeter/bin/reportgenerator.properties
+2019-02-06 11:31:18,475 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2019-02-06 11:31:18,480 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2019-02-06 11:31:18,482 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2019-02-06 11:31:18,482 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction : {} is empty, not APDEX per transaction customization
+2019-02-06 11:31:18,483 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2019-02-06 11:31:18,483 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2019-02-06 11:31:18,483 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2019-02-06 11:31:18,483 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2019-02-06 11:31:18,483 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2019-02-06 11:31:18,484 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2019-02-06 11:31:18,489 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2019-02-06 11:31:18,490 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2019-02-06 11:31:18,490 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2019-02-06 11:31:18,490 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2019-02-06 11:31:18,490 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2019-02-06 11:31:18,490 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2019-02-06 11:31:18,491 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2019-02-06 11:31:18,491 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2019-02-06 11:31:18,491 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2019-02-06 11:31:18,491 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2019-02-06 11:31:18,492 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2019-02-06 11:31:18,492 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2019-02-06 11:31:18,493 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2019-02-06 11:31:18,505 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-02-06 11:31:18,506 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-02-06 11:31:18,506 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-02-06 11:31:18,512 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2019-02-06 11:31:18,512 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2019-02-06 11:31:19,139 INFO o.a.j.r.ResultCollector: Folder at /home/travis/build/mega-pokedex/pokedexCucumber/target/jmeter/bin/target/jmeter/reports was created
+2019-02-06 11:31:19,149 INFO o.a.j.JMeter: Running test (1549452679149)
+2019-02-06 11:31:19,212 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2019-02-06 11:31:19,212 INFO o.a.j.e.StandardJMeterEngine: Starting 20 threads for group Thread Group.
+2019-02-06 11:31:19,212 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-02-06 11:31:19,213 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=20 ramp-up=1 perThread=50.0 delayedStart=false
+2019-02-06 11:31:19,221 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2019-02-06 11:31:19,247 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = travis-job-9eba1749-6b3a-437c-8672-db5ad5914c69
+2019-02-06 11:31:19,258 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2019-02-06 11:31:19,260 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2019-02-06 11:31:19,260 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2019-02-06 11:31:19,261 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2019-02-06 11:31:19,261 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2019-02-06 11:31:19,277 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2019-02-06 11:31:19,285 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-02-06 11:31:19,285 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-02-06 11:31:19,326 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2019-02-06 11:31:19,377 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2019-02-06 11:31:19,421 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2019-02-06 11:31:19,427 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2019-02-06 11:31:19,427 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2019-02-06 11:31:19,429 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2019-02-06 11:31:19,494 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2019-02-06 11:31:19,557 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2019-02-06 11:31:19,613 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2019-02-06 11:31:19,662 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2019-02-06 11:31:19,663 INFO o.a.j.u.SSLManager: KeyStore created OK
+2019-02-06 11:31:19,663 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2019-02-06 11:31:19,665 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2019-02-06 11:31:19,716 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2019-02-06 11:31:19,767 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2019-02-06 11:31:19,818 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2019-02-06 11:31:19,868 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2019-02-06 11:31:19,924 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2019-02-06 11:31:19,973 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2019-02-06 11:31:20,030 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2019-02-06 11:31:20,086 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2019-02-06 11:31:20,135 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2019-02-06 11:31:20,185 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2019-02-06 11:31:20,239 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2019-02-06 11:31:46,730 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2019-02-06 11:31:46,730 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2019-02-06 11:31:46,731 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2019-02-06 11:31:46,731 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2019-02-06 11:31:46,730 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2019-02-06 11:31:46,731 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2019-02-06 11:31:46,732 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2019-02-06 11:31:46,732 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2019-02-06 11:31:46,767 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-15
+2019-02-06 11:31:46,767 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2019-02-06 11:31:46,822 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2019-02-06 11:31:46,822 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2019-02-06 11:31:46,837 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-17
+2019-02-06 11:31:46,838 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2019-02-06 11:31:46,842 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-16
+2019-02-06 11:31:46,842 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2019-02-06 11:31:46,846 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2019-02-06 11:31:46,846 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2019-02-06 11:31:46,852 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-18
+2019-02-06 11:31:46,852 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2019-02-06 11:31:46,852 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2019-02-06 11:31:46,852 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2019-02-06 11:31:46,852 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-20
+2019-02-06 11:31:46,853 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2019-02-06 11:31:46,856 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-14
+2019-02-06 11:31:46,856 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2019-02-06 11:31:46,857 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-11
+2019-02-06 11:31:46,857 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2019-02-06 11:31:46,857 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-12
+2019-02-06 11:31:46,857 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2019-02-06 11:31:46,860 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2019-02-06 11:31:46,861 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2019-02-06 11:31:46,867 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2019-02-06 11:31:46,867 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2019-02-06 11:31:46,933 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2019-02-06 11:31:46,933 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2019-02-06 11:31:46,942 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-13
+2019-02-06 11:31:46,943 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2019-02-06 11:31:47,012 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-19
+2019-02-06 11:31:47,012 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2019-02-06 11:31:47,013 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-02-06 11:31:47,014 INFO o.a.j.r.Summariser: summary =     40 in 00:00:28 =    1.4/s Avg: 13519 Min:   103 Max: 27212 Err:     0 (0.00%)
+2019-02-06 11:31:47,014 INFO o.a.j.JMeter: Generating Dashboard
+2019-02-06 11:31:47,015 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2019-02-06 11:31:47,030 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2019-02-06 11:31:47,119 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2019-02-06 11:31:47,119 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2019-02-06 11:31:47,122 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2019-02-06 11:31:47,122 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2019-02-06 11:31:47,128 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2019-02-06 11:31:47,141 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2019-02-06 11:31:47,141 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2019-02-06 11:31:47,141 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2019-02-06 11:31:47,154 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2019-02-06 11:31:47,155 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2019-02-06 11:31:47,155 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2019-02-06 11:31:47,155 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2019-02-06 11:31:47,165 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2019-02-06 11:31:47,165 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 280 samples
+2019-02-06 11:31:47,165 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2019-02-06 11:31:47,166 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2019-02-06 11:31:47,166 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2019-02-06 11:31:47,166 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2019-02-06 11:31:47,166 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2019-02-06 11:31:47,166 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2019-02-06 11:31:47,169 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2019-02-06 11:31:47,169 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2019-02-06 11:31:47,170 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2019-02-06 11:31:47,170 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2019-02-06 11:31:47,170 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 600 samples
+2019-02-06 11:31:47,171 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 120 samples
+2019-02-06 11:31:47,171 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 40 samples
+2019-02-06 11:31:47,171 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 40 samples produced in 102ms on channel 0
+2019-02-06 11:31:47,171 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2019-02-06 11:31:47,174 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /home/travis/build/mega-pokedex/pokedexCucumber/target/jmeter/reports/pokedex_test
+2019-02-06 11:31:47,293 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /home/travis/build/mega-pokedex/pokedexCucumber/target/jmeter/reports/pokedex_test, creating folder structure
+2019-02-06 11:31:47,657 INFO o.a.j.JMeter: Dashboard generated
