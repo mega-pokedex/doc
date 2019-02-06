@@ -181,7 +181,7 @@ $(document).ready(function() {
     }, [[0, 0]], 3);
 
     // Create statistics table
-    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 40, 0, 0.0, 1184.1749999999995, 41, 2646, 2615.0, 2642.65, 2646.0, 14.054813773717497, 5.462710822206605, 2.099986823612087], "isController": false}, "titles": ["Label", "#Samples", "KO", "Error %", "Average", "Min", "Max", "90th pct", "95th pct", "99th pct", "Throughput", "Received", "Sent"], "items": [{"data": ["Request a pokemon", 20, 0, 0.0, 2269.8999999999996, 1790, 2646, 2642.3, 2645.85, 2646.0, 7.465472191116088, 2.8943285740948115, 1.1737705300485257], "isController": false}, {"data": ["Request the history", 20, 0, 0.0, 98.44999999999999, 41, 128, 120.9, 127.64999999999999, 128.0, 148.14814814814815, 57.72569444444444, 20.97800925925926], "isController": false}]}, function(index, item){
+    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 40, 0, 0.0, 1156.4499999999998, 41, 2595, 2572.6, 2593.95, 2595.0, 14.404033129276197, 5.598442563917897, 2.152165106229744], "isController": false}, "titles": ["Label", "#Samples", "KO", "Error %", "Average", "Min", "Max", "90th pct", "95th pct", "99th pct", "Throughput", "Received", "Sent"], "items": [{"data": ["Request a pokemon", 20, 0, 0.0, 2220.95, 1717, 2595, 2593.9, 2594.95, 2595.0, 7.668711656441718, 2.973123562116564, 1.2057251725460123], "isController": false}, {"data": ["Request the history", 20, 0, 0.0, 91.95, 41, 111, 109.80000000000001, 110.95, 111.0, 169.4915254237288, 66.04210805084746, 24.000264830508478], "isController": false}]}, function(index, item){
         switch(index){
             // Errors pct
             case 3:
